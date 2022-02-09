@@ -6,6 +6,7 @@ import { CategoryCardComponent } from './categories/category.card.component';
 import { BottomNavComponent } from './navigation/bottomnav.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { PromotionsCarouselComponent } from './promotions/promotions.carousel.component';
+import { VerticalCardComponent } from './store/vertical.card.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { PromotionsCarouselComponent } from './promotions/promotions.carousel.co
     BottomNavComponent,
     PromotionsCarouselComponent,
     CategoryCardComponent,
+    VerticalCardComponent,
 
   ],
   imports: [
