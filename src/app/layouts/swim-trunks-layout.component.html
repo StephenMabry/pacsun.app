@@ -1,0 +1,14 @@
+<ps-topnavbar></ps-topnavbar>
+
+<ps-headercard name="Swim"></ps-headercard>
+
+
+<div class="container-fluid d-flex">
+    <div *ngFor="let product of products">
+        <ps-vertical-card img={{product.img}} name={{product.name}} [price]='product.price'></ps-vertical-card>
+        
+    </div>
+</div>
+
+<ps-category-card></ps-category-card>
+<ps-bottomnav></ps-bottomnav>

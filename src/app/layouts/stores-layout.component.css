@@ -1,0 +1,26 @@
+input{
+    border-color: black;
+    border-radius: 0%;
+}
+
+button{
+    border-radius: 0%;
+    border-color: black;
+}
+
+.input-group{
+    width: 615px;
+    height: 75px;
+}
+
+.btn-dark{
+    width: 300px;
+}
+.btn-light{
+    width: 300px;
+}
+
+.form-check{
+    border-radius: 0%;
+    font-weight: bolder;
+}

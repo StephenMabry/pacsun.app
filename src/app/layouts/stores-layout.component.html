@@ -1,0 +1,52 @@
+<ps-topnavbar></ps-topnavbar>
+
+<div class="container-fluid d-flex flex-row">
+    <div class="col-5 pt-4 ps-3">
+        <div class="d-flex">
+            <h1>Find A Store Near You</h1>
+        </div>
+        <div class="d-flex">
+            <div class="input-group py-3 me-3">
+                <input type="text" class="form-control" placeholder="Search zip code" aria-label="Text input with dropdown button">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Distance</button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">15 Miles</a></li>
+                  <li><a class="dropdown-item" href="#">30 Miles</a></li>
+                  <li><a class="dropdown-item" href="#">50 Miles</a></li>
+                  <li><a class="dropdown-item" href="#">100 Miles</a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="d-flex">
+            <button type="button" class="btn btn-dark">Search</button>
+            <button type="button" class="btn btn-light ms-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+                Use my Location</button>
+        </div>
+        <div class="d-flex">
+            <div class="form-check my-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Available for in-store pickup
+                </label>
+              </div>
+        </div>
+
+        <div class="card mt-3">
+            <img src="https://www.pacsun.com/on/demandware.static/-/Sites-pacsun-Library/default/dw0852e4b6/storeLocator/desktopBopisCallout.jpg" alt="" class="src">
+        </div>
+
+    </div>
+    <div class="col-7 px-4 pb-5">
+        <img src="https://www.pacsun.com/on/demandware.static/-/Sites-pacsun-Library/default/dw80ddf8d7/storeLocator/pacSunSoho.svg" class="rounded float-end">
+    </div>
+
+
+</div>
+
+
+<ps-category-card></ps-category-card>
+<ps-bottomnav></ps-bottomnav>

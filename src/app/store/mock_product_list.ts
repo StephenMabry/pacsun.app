@@ -13,5 +13,10 @@ export const mock_product_list = [
         img: "/assets/pacsun_swim3.jpg",
         name: "PacSun Recycled Colorblock 17\"",
         price: 36.95
+    },
+    {
+        img: "/assets/pacsun_swim4.jpg",
+        name: "Pacsun Recycled Shrooms 17\"",
+        price: 36.95
     }
 ];
