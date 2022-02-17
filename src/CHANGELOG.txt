@@ -1,0 +1,18 @@
+Lab 4 Change Log
+
+Main Features:
+Created an app routing .ts file to handle routing
+    -6 paths (one default path)
+Created a home-layout component to be the main layout
+Created a order tracking layout to route the user to locate their orders
+Created a referal page that allows the user to refer a friend for 15% off
+Created a store locator page that allows the user to input a zip code and locate a store
+Created a page for swim wear that routes from the home-layout
+    -Created a header card to be used as the header on merchandising pages
+
+
+Additional Changes:
+Added a picture to the home page
+Added another product to mock-product-list
+    -added pacsun_swim4.jpg to assets
+
