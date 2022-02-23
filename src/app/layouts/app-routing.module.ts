@@ -1,10 +1,12 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { HomeLayoutComponent } from "./home-layout.component";
-import { OrdersLayoutComponent } from "./orders-layout.component";
-import { ReferalLayoutComponent } from "./referal-layout.component";
-import { StoresLayoutComponent } from "./stores-layout.component";
-import { SwimTrunksLayoutComponent } from "./swim-trunks-layout.component";
+import { BrandsLayoutComponent } from "./brands-layout/brands-layout.component";
+import { HomeLayoutComponent } from "./home-layout/home-layout.component";
+import { OrdersLayoutComponent } from "./orders-layout/orders-layout.component";
+import { ReferalLayoutComponent } from "./referal-layout/referal-layout.component";
+import { SaleLayoutComponent } from "./sale-layout/sale-layout.component";
+import { StoresLayoutComponent } from "./stores-layout/stores-layout.component";
+import { SwimTrunksLayoutComponent } from "./swim-trunks-layout/swim-trunks-layout.component";
 
 
 const routes:Routes = [
@@ -13,7 +15,9 @@ const routes:Routes = [
     {path: "home", component: HomeLayoutComponent},
     {path: "referal", component: ReferalLayoutComponent},
     {path: "stores", component: StoresLayoutComponent},
-    {path: "order-locator", component: OrdersLayoutComponent}
+    {path: "order-locator", component: OrdersLayoutComponent},
+    {path: "sale-page", component: SaleLayoutComponent},
+    {path: "brands", component: BrandsLayoutComponent}
 ];
 
 @NgModule({

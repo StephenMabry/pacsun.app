@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { mock_product_list } from "../store/mock_product_list";
-import { ProductItemModel } from "../store/product-item.model";
+import { mock_product_list } from "../../store/mock_product_list";
+import { ProductItemModel } from "../../store/product-item.model";
 
 @Component({
     selector: 'ps-swim-trunks',
