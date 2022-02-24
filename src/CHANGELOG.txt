@@ -16,3 +16,20 @@ Added a picture to the home page
 Added another product to mock-product-list
     -added pacsun_swim4.jpg to assets
 
+
+Lab 5 Change Log
+
+Main Features:
+Created a new routing component: Brands
+    -Created a banner component
+    -Created a Men's brands component
+    -Created a Women's brands component
+
+Created a new routing component: Sale
+    -Created a Sale banner component
+    -Cretaed a Product item using a ngFor loop
+        -5 diffrent products with 3 atributes
+    -Created a Heading banner component for Sale
+
+Additional Features:
+Updated the homepage picture to a higher quality image
