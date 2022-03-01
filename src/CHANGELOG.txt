@@ -33,3 +33,12 @@ Created a new routing component: Sale
 
 Additional Features:
 Updated the homepage picture to a higher quality image
+
+Lab 6 Change Log
+
+Main Features:
+Imported HttpClientModule to app.module.ts
+Created a new componet to display user info: "user-info"
+    -imported component to app module
+    -created an atributes file
+Created a firebase database

@@ -21,6 +21,8 @@ import { BrandsLayoutComponent } from './layouts/brands-layout/brands-layout.com
 import { BrandHeadercardComponent } from './layouts/brands-layout/brand-headercard/brand-headercard.component';
 import { MenBrandsComponent } from './layouts/brands-layout/men-brands/men-brands.component';
 import { WomenBrandsComponent } from './layouts/brands-layout/women-brands/women-brands.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 
 @NgModule({
@@ -44,10 +46,12 @@ import { WomenBrandsComponent } from './layouts/brands-layout/women-brands/women
     BrandHeadercardComponent,
     MenBrandsComponent,
     WomenBrandsComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
