@@ -42,3 +42,12 @@ Created a new componet to display user info: "user-info"
     -imported component to app module
     -created an atributes file
 Created a firebase database
+
+Lab 7 Change Log
+
+Main Features
+Created a new component to communicate with the back-hand server "products.service.ts"
+    method: getProducts(), returns: Url for .json file
+    methdo: getProduct(index:number), returns: Url for a specific product
+Modified "sale-layout-component.ts"
+    -used a for-loop to import data from the back-hand server
