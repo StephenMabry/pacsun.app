@@ -1,4 +1,4 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 
 @Component({
     selector: 'ps-vertical-card',
@@ -6,7 +6,7 @@ import { Component, Input } from "@angular/core";
     styleUrls: ['vertical.card.component.css']
 })
 
-export class VerticalCardComponent{
+export class VerticalCardComponent implements OnInit{
     @Input() img: string;
     @Input() name: string;
     @Input() price: number;
@@ -15,6 +15,9 @@ export class VerticalCardComponent{
         this.img = "";
         this.name = "";
         this.price = 0;
+    }
+    ngOnInit(): void {
+        //throw new Error("Method not implemented.");
     }
 
 }

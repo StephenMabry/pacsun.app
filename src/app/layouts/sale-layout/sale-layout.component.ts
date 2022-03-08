@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductsService } from 'src/app/products.service';
+import { mock_product_list } from 'src/app/store/mock_product_list';
+import { ProductItemModel } from 'src/app/store/product-item.model';
 import { sale_product_list } from './sale-product-list';
 import { SaleProductModel } from './sale-product.model';
 
@@ -10,15 +13,19 @@ import { SaleProductModel } from './sale-product.model';
 export class SaleLayoutComponent implements OnInit {
   products: SaleProductModel [] = [];
 
-    constructor(){
-      for(var product of sale_product_list){
-        // console.log(product);
-        this.products.push(product);
-      }
+    constructor(private productsService:ProductsService){
   
     }
 
   ngOnInit(): void {
+    this.productsService.getProducts().subscribe((data: ProductItemModel []) =>{
+      console.log("fetching data");
+      for (var product of data){
+        this.products.push(product);
+      }
+
+    });
+    //throw new Error("method not implemented");
   }
 
 }
