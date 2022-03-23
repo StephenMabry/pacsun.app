@@ -51,3 +51,12 @@ Created a new component to communicate with the back-hand server "products.servi
     methdo: getProduct(index:number), returns: Url for a specific product
 Modified "sale-layout-component.ts"
     -used a for-loop to import data from the back-hand server
+
+
+Lab 8 Change Log
+
+Main Features
+Installed firebase onto project
+Updated enviroment.ts with firebase hosting
+Started hosting my webApp on firebase
+Deployed webApp to the Internet

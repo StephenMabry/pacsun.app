@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\pacsun",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
