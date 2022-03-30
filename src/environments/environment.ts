@@ -3,6 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  firebase: {
+    projectId: 'pacsun-app',
+    appId: '1:361561235605:web:4c740d33bfffda041f7b9c',
+    databaseURL: 'https://pacsun-app-default-rtdb.firebaseio.com',
+    storageBucket: 'pacsun-app.appspot.com',
+    apiKey: 'AIzaSyDzNlEY0nFIR2mDrUpai9bAC7ZBbLIr7mY',
+    authDomain: 'pacsun-app.firebaseapp.com',
+    messagingSenderId: '361561235605',
+    measurementId: 'G-7Q9YEW93ZQ',
+  },
   production: false
 };
 

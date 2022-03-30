@@ -10,7 +10,6 @@ Created a store locator page that allows the user to input a zip code and locate
 Created a page for swim wear that routes from the home-layout
     -Created a header card to be used as the header on merchandising pages
 
-
 Additional Changes:
 Added a picture to the home page
 Added another product to mock-product-list
@@ -34,6 +33,7 @@ Created a new routing component: Sale
 Additional Features:
 Updated the homepage picture to a higher quality image
 
+
 Lab 6 Change Log
 
 Main Features:
@@ -42,6 +42,7 @@ Created a new componet to display user info: "user-info"
     -imported component to app module
     -created an atributes file
 Created a firebase database
+
 
 Lab 7 Change Log
 
@@ -60,3 +61,10 @@ Installed firebase onto project
 Updated enviroment.ts with firebase hosting
 Started hosting my webApp on firebase
 Deployed webApp to the Internet
+
+Lab 9 Change Log
+
+Main Features
+Created a form component to take user input to be sent to the backhand
+Added a method to the service class to send the data to the backhand
+Used the new method in the form to send data

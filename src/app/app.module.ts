@@ -11,7 +11,7 @@ import { BottomNavComponent } from './navigation/bottomnav.component';
 import { HeaderCardComponent } from './navigation/headercard.card.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { PromotionsCarouselComponent } from './promotions/promotions.carousel.component';
-import { AppRoutingModule } from './layouts/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { VerticalCardComponent } from './store/vertical.card.component';
 import { OrdersLayoutComponent } from './layouts/orders-layout/orders-layout.component';
 import { SaleHeadercardComponent } from './layouts/sale-layout/sale-headercard/sale-headercard.component';
@@ -23,6 +23,12 @@ import { MenBrandsComponent } from './layouts/brands-layout/men-brands/men-brand
 import { WomenBrandsComponent } from './layouts/brands-layout/women-brands/women-brands.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { AddProductComponent } from './store/add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
 
 
 @NgModule({
@@ -47,11 +53,17 @@ import { UserInfoComponent } from './user-info/user-info.component';
     MenBrandsComponent,
     WomenBrandsComponent,
     UserInfoComponent,
+    AddProductComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule,
+    FormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
   ],
   providers: [],
   bootstrap: [AppComponent]
