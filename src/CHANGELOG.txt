@@ -68,3 +68,12 @@ Main Features
 Created a form component to take user input to be sent to the backhand
 Added a method to the service class to send the data to the backhand
 Used the new method in the form to send data
+
+
+Lab 10 Change Log
+
+Main Features
+Updated my firebase to include authentication
+Created a new authentication component
+Created an authentication service
+Connected authentication component with the service
